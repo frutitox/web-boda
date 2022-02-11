@@ -242,7 +242,7 @@ $(document).ready(function () {
 // Google map
 function initMap() {
     var location = {lat: 37.937684, lng: -1.118348};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    var map = new google.maps.Map(document.getElementById('map-canvas-iglesia'), {
         zoom: 15,
         center: location,
         scrollwheel: false
